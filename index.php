@@ -28,7 +28,7 @@
                     Apresentação
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Slide 1</a>
+                    <a class="dropdown-item" href="slide1.html" id="slide1">Slide 1</a>
                     <a class="dropdown-item" href="#">Slide 2</a>
                     <a class="dropdown-item" href="#">Slide 3</a>
                     </div>
@@ -38,10 +38,18 @@
         </div>
 </nav>
 
-
-
-
-
+		<!--
+		<div>
+			<?php
+    			$valor = @$_GET[slide1];
+    			 
+    			if ($valor == 'slide1') {
+    			     require_once 'slide1.html';
+    			 }
+			?>
+		</div>
+        -->
+        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
