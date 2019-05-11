@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	padding: 10px;
+	text-align: left;
+}
+
+.row .col{
+	padding: 10px;
+	
+}
+
+h3{
+	font-family: Audiowide, Impact, "Arial Black";
+	font-size: 40px;
+	margin: 30px; 
+	color: #777777;
+	text-align: center;
+}
+
+p{
+	font-family: Avenir, Arial, sans-serif;
+	font-size: 20px;
+	color: #212121;
+	text-indent: 250px;
+}
+
+#nav{
+	font-family: Audiowide, Impact, "Arial Black";
+	font-size: 20px;
+	color: white; 	
+}
+
+#navbarDropdownMenuLink{
+	font-family: Audiowide, Impact, "Arial Black";
+	font-size: 15px;
+	color: white; 	
+}
+
+#texto{
+	text-align: left;
+	font: 16px Avenir, Arial, sans-serif;
+	color: black;
+	padding: 5px;
+}
+
+#slides{
+	text-align: left;
+	font: 16px Avenir, Arial, sans-serif;
+	color: white;
+	padding: 5px;
+	background-color: #563D7C;
+	width: 800px;
+}
