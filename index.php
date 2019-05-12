@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <title>Seminário de Linux - Samba</title>
   </head>
@@ -17,8 +17,10 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #563D7C">
               
-                <a class="navbar-brand ml-auto" href="#" id="nav">Seminário de Linux - Samba</a>
+                <a class="navbar-brand ml-auto" href="#" id="nav">Seminário de Linux</a>
                 
+               <img src="images/samba.png" class="img-fluid" alt="Responsive image" />
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,9 +32,16 @@
                             Apresentação
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="slide1.html" target="_blank">Slide 1</a>
-                            <a class="dropdown-item" href="#" target="_blank">Slide 2</a>
-                            <a class="dropdown-item" href="#" target="_blank">Slide 3</a>
+                            <a class="dropdown-item" href="slides/slide1.html" target="_blank">Slide 1</a>
+                            <a class="dropdown-item" href="slides/slide2.html" target="_blank">Slide 2</a>
+                            <a class="dropdown-item" href="slides/slide3.html" target="_blank">Slide 3</a>
+                            <a class="dropdown-item" href="slides/slide4.html" target="_blank">Slide 4</a>
+                            <a class="dropdown-item" href="slides/slide5.html" target="_blank">Slide 5</a>
+                            <a class="dropdown-item" href="slides/slide6.html" target="_blank">Slide 6</a>
+                            <a class="dropdown-item" href="slides/slide7.html" target="_blank">Slide 7</a>
+                            <a class="dropdown-item" href="slides/slide8.html" target="_blank">Slide 8</a>
+                             <a class="dropdown-item" href="slides/slide9.html" target="_blank">Slide 9</a>
+                            <a class="dropdown-item" href="slides/slide10.html" target="_blank">Slide 10</a>
                             </div>
                         </li>
                     </ul>
@@ -58,10 +67,12 @@
             </div>
             
             <div class="container">
-                <h3>Introdução</h3>                
+                <h3>Resumo</h3>                
             </div>
 
             <div class="container">
+
+                <p class="text-left">- Introdução</p>
                 <p class="text-left">- Breve Histórico</p>
                 <p class="text-left">- Funcionalidades do SAMBA</p>
                 <p class="text-left">- Instalaçao e Configuração</p>
