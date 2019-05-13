@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="/seminarioSamba/css/style.css" />
 
-    <title>Slide 9</title>
+    <title>Slide 12</title>
   </head>
 
   <body>
@@ -33,23 +33,21 @@
         
         <p id="slides">Criando uma configuração básica do SAMBA</br></p>
 
-        <p id="slides">[global]</br></br>
+        <p id="slides"># defini a máscara em que os arquivos serão criados</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # nome do grupo de trabalho</br>
+                       create mask = 0777</br></br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       workgroup = IFB</br></br>
+                       # defini a mascara em que os diretórios serão criados</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # como a máquina Linux irá aparecer na rede Windows</br>
+                       directory mask = 0700</br></br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       netbios name = "coloque o nome da sua máquina"</br></br>
+                       Salve o arquivo de configuração, e execute este comando para reiniciar o samba</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # modo de acesso aos arquivos do Linux</br>
+                       # /etc/init.d/samba restart (ou)</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # share -> para não exigir autenticação</br>
+                       # service samba restart (ou)</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # user -> para exigir autenticação</br>
-                       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       security = share
+                       # systemctl restart smbd
         </p>
 
       </div>  

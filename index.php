@@ -40,8 +40,12 @@
                             <a class="dropdown-item" href="slides/slide6.html" target="_blank">Slide 6</a>
                             <a class="dropdown-item" href="slides/slide7.html" target="_blank">Slide 7</a>
                             <a class="dropdown-item" href="slides/slide8.html" target="_blank">Slide 8</a>
-                             <a class="dropdown-item" href="slides/slide9.html" target="_blank">Slide 9</a>
+                            <a class="dropdown-item" href="slides/slide9.html" target="_blank">Slide 9</a>
                             <a class="dropdown-item" href="slides/slide10.html" target="_blank">Slide 10</a>
+                            <a class="dropdown-item" href="slides/slide11.html" target="_blank">Slide 11</a>
+                            <a class="dropdown-item" href="slides/slide12.html" target="_blank">Slide 12</a>
+                            <a class="dropdown-item" href="slides/slide13.html" target="_blank">Slide 13</a>
+                            <a class="dropdown-item" href="slides/slide14.html" target="_blank">Slide 14</a>
                             </div>
                         </li>
                     </ul>
@@ -52,7 +56,11 @@
             <div class="container">
                 <div class="row">
                     <div id="texto" class="col" >
-                        Grupo: Marcos Vasconcellos de Andrade e Luiz Mir
+                        Grupo: Marcos Vasconcellos de Andrade</br>
+                               &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                               Luiz Jorge Mir Filho</br>
+                               &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                               Edilson Nery Barbosa
                     </div>
                     <div class="w-100"></div>
                     <div id="texto" class="col">
@@ -76,11 +84,11 @@
                 <p class="text-left">- Breve Histórico</p>
                 <p class="text-left">- Funcionalidades do SAMBA</p>
                 <p class="text-left">- Instalaçao e Configuração</p>
+                <p class="text-left">- Ajustes Finais</p>
                 <p class="text-left">- LABORATÓRIO</p>
 
             </div>		 
-        		
-        
+        	
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="/seminarioSamba/css/style.css" />
 
-    <title>Slide 2</title>
+    <title>Slide 8</title>
   </head>
 
   <body>
@@ -19,10 +19,11 @@
       <div class="container">
         <div class="row">
           <div class="col">
-          <img src="/seminarioSamba/images/logo.png" class="img-fluid" alt="Responsive image2" id="imagem">
+          <img src="/seminarioSamba/images/logo.png" class="img-fluid" alt="Responsive image2" id="imagem2">
           </div>
           <div class="col">
-          <h4>Introdução</h4>
+          <h4>Instalação</h4>
+          <h5>/Configuração</h5>
           </div>
           <div class="col">
           <img src="/seminarioSamba/images/samba.png" class="img-fluid" alt="Responsive image" id="imagem">
@@ -30,11 +31,19 @@
         </div>
       </div>  
         
-        <p id="slides"></p>
+        <p id="slides">Efetuar a instalação do samba:</br></br> 
+                       
+                       # apt-get install samba </p>
 
-        <p id="slides"></p>
+         <p id="slides">Depois de concluído o download/instalação do pacote via APT, o sistema irá criar o arquivo smb.conf dentro da pasta “/etc/samba/”. Este é responsável pela configuração do Samba.</p>
 
-        <p id="slides"></p>
+        <p id="slides">Após efetuar a instalação, acesse o arquivo de configuração, normalmente localizado em /etc/samba/smb.conf. Utilize um editor de sua preferência para editá-lo, como vim ou nano. Antes de começar a editar efetue uma backup do arquivo original:</br></br> 
+
+                      # cd /etc/samba</br>
+                      # cp smb.conf smb.conf.bkp</br>
+                      # nano smb.conf
+        </p>
+
       </div>  
 
     </div>

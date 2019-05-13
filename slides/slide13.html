@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="/seminarioSamba/css/style.css" />
 
-    <title>Slide 9</title>
+    <title>Slide 13</title>
   </head>
 
   <body>
@@ -22,8 +22,8 @@
           <img src="/seminarioSamba/images/logo.png" class="img-fluid" alt="Responsive image2" id="imagem2">
           </div>
           <div class="col">
-          <h4>Instalação</h4>
-          <h5>/Configuração</h5>
+          <h4>Ajustes</h4>
+          <h4>Finais</h4>
           </div>
           <div class="col">
           <img src="/seminarioSamba/images/samba.png" class="img-fluid" alt="Responsive image" id="imagem">
@@ -31,26 +31,28 @@
         </div>
       </div>  
         
-        <p id="slides">Criando uma configuração básica do SAMBA</br></p>
-
-        <p id="slides">[global]</br></br>
+        <p id="slides">Precisaremos agora criar o diretório que foi compartilhado em <b>"PATH"</b></br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # nome do grupo de trabalho</br>
+                       # mkdir /home/.../publico</br></br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       workgroup = IFB</br></br>
+                       Mudando as permissões da pasta publico para acesso total</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # como a máquina Linux irá aparecer na rede Windows</br>
+                       # chmod -R 2777 /home/.../publico</br></br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       netbios name = "coloque o nome da sua máquina"</br></br>
+                       Caso seja necessário, verifique as configurações atuais do samba executando</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # modo de acesso aos arquivos do Linux</br>
+                       o comando abaixo.</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # share -> para não exigir autenticação</br>
+                       $ testparm</br></br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # user -> para exigir autenticação</br>
+                       Abra o gerenciador de arquivos e tente acessar o compartilhamento</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       security = share
+                       smb://127.0.0.1
         </p>
+
+        <p id="slides">Caso tenha dado tudo certo você já poderá criar novos arquivos e pastas</br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  
+        no compartilhamento publico que criou...</p>
 
       </div>  
 

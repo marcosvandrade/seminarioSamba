@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="/seminarioSamba/css/style.css" />
 
-    <title>Slide 9</title>
+    <title>Slide 11</title>
   </head>
 
   <body>
@@ -33,23 +33,17 @@
         
         <p id="slides">Criando uma configuração básica do SAMBA</br></p>
 
-        <p id="slides">[global]</br></br>
+        <p id="slides">#se o compartilhamento será visível ou oculto na rede</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # nome do grupo de trabalho</br>
+                       browseable = yes</br></br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       workgroup = IFB</br></br>
+                       # se permitirá escrita</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # como a máquina Linux irá aparecer na rede Windows</br>
+                       writable = yes</br></br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       netbios name = "coloque o nome da sua máquina"</br></br>
+                       # se será somente leitura ou não</br>
                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # modo de acesso aos arquivos do Linux</br>
-                       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # share -> para não exigir autenticação</br>
-                       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       # user -> para exigir autenticação</br>
-                       &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                       security = share
+                       ready only = no</br></br>
         </p>
 
       </div>  

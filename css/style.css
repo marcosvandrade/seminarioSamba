@@ -21,6 +21,10 @@ img{
 	width: 30%;
 }
 
+#imagem2{
+	width: 25%;
+}
+
 #img_swat{
 	width: 50%;
 
@@ -40,6 +44,15 @@ h4{
 	color: white;
 	text-align: center;
 	margin-right: 100px;
+}
+
+h5{
+	font-family: Audiowide, Impact, "Arial Black";
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	margin-right: 100px;
+	
 }
 
 p{
